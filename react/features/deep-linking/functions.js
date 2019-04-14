@@ -76,7 +76,6 @@ export function getDeepLinkingPage(state) {
         return Promise.resolve();
     }
 
-    //const OS = Platform.OS;
     const isUsingMobileBrowser = false;
 
     if (isUsingMobileBrowser) { // mobile
